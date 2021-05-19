@@ -4,6 +4,7 @@ Homebrew Temperature Messaging Service: Checks temperature data from a Tilt Wire
 This program uses Google's API and the Twilio text messaging platform. The user will need to have accounts for both.
 
 **Tilt Hydrometer Set-Up**
+
 The Tilt Hydrometer is a free floating thermometer and hydrometer designed for homebrewing. It provides real-time monitoring of temperature and specific gravity of the fermenting beer while it is in the fermentation vessel. The hydrometer connects to most Bluetooth 4.0 devices and can be read through the downloadable Tilt App or a Raspberry Pi. The user can then optionally log data to the cloud using Google Sheets at a desired time interval (default is 15 minutes).
 
 Instructions: Connect your Tilt Hydrometer in the Tilt App and go to settings. Enter your Gmail email, use the default clould URL and then start a new log. You should receive an email with the link to the Google Sheets.
@@ -35,7 +36,4 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 
 ![image](https://user-images.githubusercontent.com/65422369/118865755-e9b57f80-b8a6-11eb-9da8-47712d0de853.png)
 
-**5. Make note of your "Account SID", "Auth Token", and "Twilio Phone Number". The program will ask for these as inputs.
-**
-
-
+**5. Make note of your "Account SID", "Auth Token", and "Twilio Phone Number". The program will ask for these as inputs.**
