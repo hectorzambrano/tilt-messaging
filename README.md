@@ -11,7 +11,7 @@ Instructions: Connect your Tilt Hydrometer in the Tilt App and go to settings. E
 
 **Make note of the text in the URL of the Google Sheet after the "d/". The program will ask for this as an input**
 
-![image](https://user-images.githubusercontent.com/65422369/118866850-0acaa000-b8a8-11eb-80ed-0a3ab7e1002f.png)
+![image](https://user-images.githubusercontent.com/65422369/118894555-1333d280-b8ca-11eb-9105-d7891714527f.png)
 
 **Google API Set-Up**
 
